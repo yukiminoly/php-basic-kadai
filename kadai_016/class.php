@@ -43,8 +43,8 @@
 
     $food = new Food("potato", 250);
     $animal = new Animal("dog", 60, 5000);
-    echo $food->show_price();
-    echo $animal->show_height();
+    $food->show_price();
+    $animal->show_height();
     ?>
   </p>
 </body>
